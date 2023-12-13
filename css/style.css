@@ -44,6 +44,10 @@ a:focus {
 
 }
 
+p{
+    text-align: justify;
+}
+
 .btn:focus {
     /* box-shadow: 5px 5px 10px 0 rgb(243, 241, 241); */
     box-shadow: outset;
@@ -856,6 +860,7 @@ a:focus {
     color: var(--second-bg-color);
     padding: 0 25px 25px 25px;
     font-size: 18px;
+    text-align: justify;
 }
 
 .service .service-item a.btn {
@@ -987,10 +992,10 @@ a:focus {
     color: var(--main-color);
 }
 
-.team .team-text p {
+/* .team .team-text p {
     margin: 0;
     color: var(--second-bg-color);
-}
+} */
 
 .team .team-social {
     position: absolute;
@@ -1002,8 +1007,13 @@ a:focus {
     align-items: center;
     justify-content: center;
     background: var(--main-color);
-    font-size: 0;
+    /* font-size: 0; */
     transition: .5s;
+}
+
+.team .team-social p{
+    margin: 0;
+    color: var(--bg-color);
 }
 
 .team .team-item:hover .team-social {
@@ -1176,7 +1186,9 @@ a:focus {
     font-size: 60px;
     transform: rotate(45deg);
     z-index: 1;
+
 }
+
 
 .testimonial .testimonial-item .col-12 {
     margin-top: 20px;
@@ -1197,6 +1209,7 @@ a:focus {
     color: var(--main-color);
     font-size: 16px;
     margin: 0;
+    text-align: justify;
 }
 
 .testimonial .owl-nav,
@@ -1821,6 +1834,10 @@ a:focus {
     position: relative;
     margin-bottom: 45px;
     color: var(--second-bg-color);
+}
+
+.footer .footer-about p{
+    text-align: justify;
 }
 
 .footer .footer-about h2,
