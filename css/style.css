@@ -102,7 +102,7 @@ p{
     padding: 5px 0;
     text-align: left;
     overflow: hidden;
-    width: 200%;
+    width: 300%;
 }
 
 /* .logo_text {
@@ -116,10 +116,10 @@ p{
     margin-left: 15%;
     margin-top: 15px;
     color: var(--main-color);
-    font-size: 18px;
+    font-size: 23px;
     /* line-height: 20px; */
     font-weight: 800;
-    width: 200px;
+    width: 290px;
 }
 
 .top-bar .logo h4 {
@@ -128,10 +128,10 @@ p{
     margin-left: 24%;
     margin-top: 15px;
     color: var(--main-color);
-    font-size: 15px;
+    font-size: 20px;
     /* line-height: 20px; */
     font-weight: 800;
-    width: 200px;
+    width: 290px;
 }
 
 .top-bar .logo img {
@@ -659,7 +659,7 @@ p{
 
 .about-text #ab {
     color: var(--main-color);
-    font-size: larger;
+    font-size:xx-large;
 }
 
 .about .about-text a.btn {
