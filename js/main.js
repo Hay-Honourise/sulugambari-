@@ -48,6 +48,7 @@
     // Testimonials carousel
     $(".testimonials-carousel").owlCarousel({
         autoplay: true,
+        autoplayTimeout: 6000, 
         dots: true,
         loop: true,
         responsive: {
