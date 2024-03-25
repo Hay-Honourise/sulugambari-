@@ -47,8 +47,7 @@
 
     // Testimonials carousel
     $(".testimonials-carousel").owlCarousel({
-        autoplay: true,
-        autoplayTimeout: 6000, 
+        autoplay: false,
         dots: true,
         loop: true,
         responsive: {
@@ -105,6 +104,12 @@
     
 })(jQuery);
 
+
+function showMessageBox(abdulrazaq) {
+    alert("• He has worked with various prestigious law firms in Nigeria and abroad including Kehinde Sofola & Co, Femi Atoyebi & Co. and Stanbrook & Hooper (now McDermott Will & Emery/Stanbrook LLP) in Brussels.\n\n• He has worked with various prestigious law firms in Nigeria and abroad including Kehinde Sofola & Co, Femi Atoyebi & Co. and Stanbrook & Hooper (now McDermott Will & Emery/Stanbrook LLP) in Brussels.\n\n• Abubakar headed a team that worked on a core LNG project.\n\nHe is currently heading the team working on the AKK Gas Pipeline Project and has extensive experience in litigation in the Maritime and the Oil and Gas Industries amongst others.\n\nHe is a member of the Chartered Institute of Arbitrators.");
+}
+
+  
 
 
 
