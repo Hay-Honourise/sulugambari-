@@ -109,9 +109,9 @@ function showMessageBox(abdulrazaq) {
     alert("• Abubakar Sulu-Gambari, SAN, LLB, BL, LLM, MCIArb, the Principal Partner was called to the Bar in 1991.\n" +
           "• He holds an LL.M. degree in Shipping and Maritime Law from the University College London (UCL) and specializes in all aspects of maritime litigation, charter party negotiations, ship financing and shipping arbitration.\n" +
           "• He has worked with various prestigious law firms in Nigeria and abroad including Kehinde Sofola & Co, Femi Atoyebi & Co. and Stanbrook & Hooper (now McDermott Will Emery/Stanbrook LLP) in Brussels.\n" +
-          "• He has worked with various prestigious law firms in Nigeria and abroad including Kehinde Sofola & Co, Femi Atoyebi & Co. and Stanbrook & Hooper (now McDermott Will Emery/Stanbrook LLP) in Brussels.");
+          "• He has worked with various prestigious law firms in Nigeria and abroad including Kehinde Sofola & Co, Femi Atoyebi & Co. and Stanbrook & Hooper (now McDermott Will Emery/Stanbrook LLP) in Brussels.\n" +
+          "• Abubakar headed a team that worked on a core LNG project. He is currently heading the team working on the AKK Gas Pipeline Project and has extensive experience in litigation in the Maritime and the Oil and Gas Industries amongst others. He is a member of the Chartered Institute of Arbitrators.");
 }
-
   
 
 

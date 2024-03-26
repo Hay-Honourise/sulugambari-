@@ -369,6 +369,7 @@ p{
 
  .btn1 a:hover {
     color: var(--text-color);
+    background: var(--bg-color);
 }
 
 
