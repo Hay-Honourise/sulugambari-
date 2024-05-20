@@ -1247,9 +1247,7 @@ p{
     font-size: 60px;
     transform: rotate(45deg);
     z-index: 1;
-
 }
-
 
 .testimonial .testimonial-item .col-12 {
     margin-top: 20px;
@@ -1270,7 +1268,6 @@ p{
     color: var(--main-color);
     font-size: 16px;
     margin: 0;
-    text-align: justify;
 }
 
 .testimonial .owl-nav,
@@ -1292,9 +1289,32 @@ p{
     background: var(--bg-color);
 }
 
-.na{
-    color: #fff;
-}
+
+
+/* Add media queries to adjust the layout for different screen sizes */
+@media (max-width: 768px) {
+    .testimonial {
+      padding: 10px;
+    }
+    .testimonial-item {
+      margin: 10px;
+    }
+    .testimonial-item img {
+      height: 100px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .testimonial {
+      padding: 5px;
+    }
+    .testimonial-item {
+      margin: 5px;
+    }
+    .testimonial-item img {
+      height: 80px;
+    }
+  }
 
 
 /*******************************/
