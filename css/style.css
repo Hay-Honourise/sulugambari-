@@ -95,14 +95,16 @@ p{
     position: relative;
     height: 87px;
     background: var(--bg-color);
+/*background-color: red;*/
 }
 
 .top-bar .logo {
     display: flex;
     padding: 5px 0;
     text-align: left;
-    overflow: hidden;
-    width: 300%;
+/*    overflow: hidden;*/
+    width: 75%;
+/*    background-color: green;*/
 }
 
 /* .logo_text {
@@ -113,7 +115,7 @@ p{
 .top-bar .logo h1 {
     display: flex;
     /* margin: 0; */
-    margin-left: 15%;
+    margin-left: 45%;
     margin-top: 15px;
     color: var(--main-color);
     font-size: 23px;
@@ -125,7 +127,7 @@ p{
 .top-bar .logo h4 {
     display: flex;
     /* margin: 0; */
-    margin-left: 24%;
+    margin-left: 53%;
     margin-top: 15px;
     color: var(--main-color);
     font-size: 20px;
@@ -137,6 +139,7 @@ p{
 .top-bar .logo img {
     max-width: 100%;
     max-height: 100px;
+    position: absolute;
 }
 
 .top-bar .top-bar-right {
@@ -201,6 +204,7 @@ p{
 @media (min-width: 992px) {
     .top-bar {
         padding: 0 60px;
+        
     }
 }
 
@@ -209,6 +213,37 @@ p{
         text-align: center;
     }
     
+    .top-bar .logo h1 {
+    display: flex;
+    /* margin: 0; */
+    margin-left: 40%;
+    margin-top: 15px;
+    color: var(--main-color);
+    font-size: 23px;
+    /* line-height: 20px; */
+    font-weight: 800;
+/*    width: 290px;*/
+}
+
+.top-bar .logo h4 {
+    display: flex;
+    /* margin: 0; */
+    margin-left: 51%;
+    margin-top: 10px;
+    color: var(--main-color);
+    font-size: 20px;
+    /* line-height: 20px; */
+    font-weight: 800;
+/*    width: 290px;*/
+}
+
+.top-bar .logo img {
+    max-width: 100%;
+    max-height: 100px;
+}
+    .top-bar .text{
+        display: none;
+    }
     .top-bar .social {
         display: none;
     }
@@ -1199,6 +1234,10 @@ p{
 .testimonial {
     position: relative;
     padding: 45px 0;
+   /* display: flex;
+    justify-content: center;
+    align-items: center;*/
+/*    background-color: red;*/
 }
 
 .testimonial .testimonials-carousel {
@@ -1206,6 +1245,11 @@ p{
     width: calc(100% + 30px);
     left: -15px;
     right: -15px;
+
+/*    background-color: green;*/
+     display: flex;
+    justify-content: center;
+/*    align-items: center;*/
 }
 
 .testimonial .testimonial-item {
@@ -1213,7 +1257,10 @@ p{
     margin: 0 15px;
     padding: 30px;
     background: var(--bg-color);
-    overflow: hidden;
+/*    overflow: hidden;*/
+
+/*background-color: blue;*/
+/*    max-width: 100%;*/
 }
 
 .testimonial .testimonial-item i {
