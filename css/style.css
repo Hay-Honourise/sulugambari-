@@ -1062,6 +1062,15 @@ p{
 .team .team-item {
     margin-bottom: 30px;
 }
+.team .row{
+    display: flex;
+    justify-content: center;
+
+}
+
+.team .team-item .row {
+    margin-left: 200px;
+}
 
 .team .team-img {
     position: relative;
